@@ -1,6 +1,6 @@
 export const addSiteView = () => {
   const milliseconds_Until_Next_View_Counts = 86400000; //1 day in milliseconds
-  const viewUrl = "http://too-simple-analytics.herokuapp.com/std/view/QBT2";
+  const viewUrl = "URL Here";
 
   const saveDate = () => {
     const thisDateAsString = new Date().getTime() + "";
