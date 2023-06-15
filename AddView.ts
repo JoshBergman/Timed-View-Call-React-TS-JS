@@ -18,7 +18,6 @@ export const addSiteView = () => {
 
   const getNextViewTime = () => {
     const lastViewTime = retrieveLastViewDate();
-    console.log(lastViewTime);
     const timeTillNextView = lastViewTime + milliseconds_Until_Next_View_Counts;
     return timeTillNextView;
   };
